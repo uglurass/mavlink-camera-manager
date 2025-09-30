@@ -218,6 +218,7 @@ cargo build --release
 ```
 
 _note: If the compilation fails to find one of these packages, make sure that they are visible for `pkg-config`, which may be necessary to set `PKG_CONFIG_PATH` environment variable._
+running $ export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig fixed build not proceeding.
 
 ## License
 
